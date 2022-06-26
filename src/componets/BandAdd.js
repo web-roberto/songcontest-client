@@ -21,7 +21,7 @@ export const BandAdd = () => {
       <form onSubmit={onSubmit}>
         <input
           className="form-control"
-          placeholder="Nuevo nombre de banda"
+          placeholder="New name of the music group"
           value={valor}
           onChange={(ev) => setValor(ev.target.value)}
         />
